@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student registration form</title>
+    <style>
+      h1 {
+        text-align: center;
+        background-color: grey;
+        padding: 20px;
+        margin: 0px;
+        width: 100%;
+      }
+      table {
+        color: black;
+        margin: 0px;
+        width: 100%;
+        background-color: skyblue;
+        padding: 20px;
+      }
+      body {
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <table cellspacing="5" style="border: 1px solid black" cellpadding="6">
+      <tr>
+        <td>FIRST NAME</td>
+        <td>
+          <input type="text" placeholder="enter your first name" />(max 30
+          characters a-z and A-Z)
+        </td>
+      </tr>
+      <tr>
+        <td>LAST NAME</td>
+        <td>
+          <input type="text" placeholder="enter your last name" />(max 30
+          characters a-z and A-Z)
+        </td>
+      </tr>
+      <tr>
+        <td>MOBILE NUMBER</td>
+        <td>
+          <input type="number" placeholder="enter your mobile number" />(10
+          digit number)
+        </td>
+      </tr>
+      <tr>
+        <td>EMAIL ID</td>
+        <td><input type="email" placeholder="enter your Email name" /></td>
+      </tr>
+      <tr>
+        <td>DATE OF BIRTH</td>
+        <td>
+          <select>
+            <option>date</option>
+          </select>
+          <select>
+            <option>month</option>
+          </select>
+          <select>
+            <option>year</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>GENDER</td>
+        <td>
+          <input type="radio" name="gender" /><label>male</label>
+          <input type="radio" name="gender" /><label>female</label>
+        </td>
+      </tr>
+      <tr>
+        <td>ADDRESS</td>
+        <td>
+          <textarea
+            placeholder="enter your address"
+            height="3px"
+            width="60px"
+          ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>CITY</td>
+        <td>
+          <input type="text" placeholder="enter your city" />(max 30 characters
+          a-z and A-Z)
+        </td>
+      </tr>
+      <tr>
+        <td>PINCODE</td>
+        <td>
+          <input type="number" placeholder="enter your pincode" />(6 digit
+          number)
+        </td>
+      </tr>
+      <tr>
+        <td>STATE</td>
+        <td>
+          <input type="text" placeholder="enter your state" />(max 30 characters
+          a-z and A-Z)
+        </td>
+      </tr>
+      <tr>
+        <td>COUNTRY</td>
+        <td>
+          <input type="text" placeholder="INDIA" readonly />
+        </td>
+      </tr>
+      <tr>
+        <td style="position: relative; bottom: 60px">QUALIFICATION</td>
+        <td>
+          <table style="border: 1px solid black" cellspacing="3" cellpadding="3">
+            <tr>
+              <td>SI.NO</td>
+              <td>examination</td>
+              <td>board</td>
+              <td>percentage</td>
+              <td>year of passing</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>class X</td>
+              <td><input type="text" placeholder="enter your board" /></td>
+              <td>
+                <input type="text" placeholder="enter your SSLC percentage" />
+              </td>
+              <td><input type="text" placeholder="passed out year" /></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>class XII</td>
+              <td><input type="text" placeholder="enter your board" /></td>
+              <td>
+                <input type="text" placeholder="enter your HSC percentage" />
+              </td>
+              <td><input type="text" placeholder="passed out year" /></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Graduation</td>
+              <td><input type="text" placeholder="enter your board" /></td>
+              <td>
+                <input type="text" placeholder="enter your UG percentage" />
+              </td>
+              <td><input type="text" placeholder="passed out year" /></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Masters</td>
+              <td><input type="text" placeholder="enter your board" /></td>
+              <td>
+                <input type="text" placeholder="enter your PG percentage" />
+              </td>
+              <td><input type="text" placeholder="passed out year" /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>(10 char max)</td>
+              <td>(upto 2 decimal)</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>COURSE APPLIED FOR</td>
+        <td>
+          <select>
+            <option>select course</option>
+            <option>mern</option>
+            <option>java</option>
+            <option>python</option>
+            <option>full stack webdevelopment</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>HOBBIES</td>
+        <td>
+          <input type="checkbox" /><label>drawing</label>
+          <input type="checkbox" /><label>singing</label>
+          <input type="checkbox" /><label>sketching</label>
+          <input type="checkbox" /><label>swimming</label>
+          <input type="checkbox" /><label>dancing</label>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="checkbox" /><label>other</label>
+          <input type="text" placeholder="enter you other hobbies" />
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="text-align: center">
+          <button submit>SUBMIT</button>
+          <button reset>RESET</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
